@@ -3,7 +3,10 @@ info:
   model: int-scaffold
 packages:
 - name: GitComboThirdProject
-  gitBranch: master
+  gitServerName: esbtest_shared
+  gitUrl: https://github.com/ESBTest2-IBM
+  gitUsername: ESBTest2-IBM
+  gitBranch: main
 - name: TPP11
   version: "1.0"
   gitServerName: esb_shared_2
