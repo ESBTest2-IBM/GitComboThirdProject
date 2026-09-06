@@ -4,3 +4,8 @@ info:
 packages:
 - name: GitComboThirdProject
   gitBranch: master
+- name: TPP11
+  gitServerName: esb_shared_2
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: ESBTest2-IBM
+  gitBranch: main
