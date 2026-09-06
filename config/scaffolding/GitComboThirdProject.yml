@@ -14,3 +14,8 @@ packages:
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
   gitBranch: main
+- name: PackageB
+  gitServerName: NarayanaGit
+  gitUrl: https://github.com/Narayanasamy-Ramaiah-IBM01
+  gitUsername: Narayanasamy-Ramaiah-IBM01
+  gitBranch: main
