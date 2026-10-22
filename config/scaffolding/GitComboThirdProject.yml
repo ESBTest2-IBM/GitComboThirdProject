@@ -41,7 +41,7 @@ services:
 - serviceName: pub.string:toUpper
   packages:
   - name: WmPublic
-    version: 12.1.0.0.1308
+    version: 12.1.0.0.1310
 - serviceName: project.gitcombothird.integrations:GlobalVarTest
   packages:
   - name: GitComboThirdProject
@@ -61,11 +61,7 @@ services:
 - serviceName: pub.string:concat
   packages:
   - name: WmPublic
-    version: 12.1.0.0.1308
-- serviceName: pub.math:addInts
-  packages:
-  - name: WmPublic
-    version: 12.1.0.0.1308
+    version: 12.1.0.0.1310
 - serviceName: project.gitcombothird.integrations:esbtest2Flow
   packages:
   - name: GitComboThirdProject
@@ -81,8 +77,24 @@ services:
 - serviceName: pub.string:compareStrings
   packages:
   - name: WmPublic
-    version: 12.1.0.0.1308
+    version: 12.1.0.0.1310
 - serviceName: project.gitcombothird.integrations:mathFlow
+  packages:
+  - name: GitComboThirdProject
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
+  - name: Punith_KMAT_Salesforce_Sync
+    version: "1.0"
+  - name: PackageB
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1310
+- serviceName: project.gitcombothird.integrations:pendingFlow
   packages:
   - name: GitComboThirdProject
     version: "1.0"
